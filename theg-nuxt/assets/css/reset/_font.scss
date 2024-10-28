@@ -1,0 +1,15 @@
+// Einbindung der Variable Font
+@font-face {
+  font-family: 'PublicSans';
+  src: url('~/assets/fonts/publicsans/PublicSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PublicSans';
+  src: url('~/assets/fonts/publicsans/PublicSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+

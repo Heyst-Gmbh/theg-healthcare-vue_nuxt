@@ -1,0 +1,30 @@
+.default-headerbackground {
+  width:100%;
+  background: rgb(0,114,216);
+  background: url("~/assets/img/cta-background.svg"),
+  linear-gradient(51deg, rgb(0, 114, 216) 1%, rgb(27, 37, 97) 25%);
+  background-size: 20%, 100% 92%;
+  background-position: right 140px bottom, top;
+  background-repeat: no-repeat, no-repeat;
+  padding-bottom: 100px;
+  @media screen and (max-width:1024px) {
+    background-size: 35%, 100% 92%;
+    background-position: right 10% bottom, top;
+  }
+  @media screen and (max-width:480px) {
+    padding-bottom: 50px;;
+  }
+
+  .default-headerbackground-text {
+    color:$color-white;
+    width:45%;
+    margin-top:100px;
+    @media screen and (max-width:640px) {
+      width:100%;
+      margin-top:25px;
+    }
+    .subheadline {
+      margin-bottom:40px;
+    }
+  }
+}

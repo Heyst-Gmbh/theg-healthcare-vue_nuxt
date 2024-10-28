@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="arrow-right" transform="translate(25) rotate(90)">
+    <path id="Pfad_52" data-name="Pfad 52" d="M0,0H14" transform="translate(5 12)" fill="none" stroke="#0072D8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Pfad_53" data-name="Pfad 53" d="M0,6,6,0" transform="translate(13 12)" fill="none" stroke="#0072D8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Pfad_54" data-name="Pfad 54" d="M0,0,6,6" transform="translate(13 6)" fill="none" stroke="#0072D8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,246 @@
+.ellipse-wrapper {
+  width:33px;
+  height:33px;
+  background:$color-thegBlue;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  transition:0.3s;
+}
+
+.button {
+  display: inline-flex;
+  gap:36px;
+  align-items: center;
+  padding: 10px 10px 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 38px;
+  transition:0.3s;
+  font-size: 1.25rem;
+  @media screen and (max-width: 480px) {
+    font-size: $p_mobile;
+    gap:18px;
+  }
+  &:hover {
+    cursor:pointer;
+  }
+  span {
+    font-size: inherit;
+    flex:0 0 auto;
+  }
+
+  &.outline {
+    background-color:transparent;
+    border:2px solid $color-thegBlue;
+    .ellipse-wrapper {
+      background:$color-thegBlue;
+      svg {
+        path {
+          stroke:$color-white;
+        }
+      }
+    }
+    &:hover {
+      background: $color-thegBlue;
+      .ellipse-wrapper {
+        background:$color-white;
+        svg {
+          path {
+            stroke:$color-thegBlue;
+          }
+        }
+      }
+    }
+    .navwrapper & {
+      #noheader & {
+        span {
+          color:$color-thegBlue;
+        }
+      }
+    }
+
+    .navwrapper & {
+      color:$color-white;
+    }
+  }
+
+  &.outline-reverted {
+    background-color:transparent;
+    border:2px solid $color-thegBlue;
+    color:$color-thegBlue;
+    .ellipse-wrapper {
+      background:$color-thegBlue;
+      svg {
+        path {
+          stroke:$color-white;
+        }
+      }
+    }
+    &:hover {
+      background: $color-thegBlue;
+      color:$color-white;
+      .ellipse-wrapper {
+        background:$color-white;
+        svg {
+          path {
+            stroke:$color-thegBlue;
+          }
+        }
+      }
+    }
+  }
+
+  &.full {
+    background-color:$color-thegBlue;
+    border:2px solid $color-thegBlue;
+    .ellipse-wrapper {
+      background:$color-white;
+      svg {
+        path {
+          stroke:$color-thegBlue;
+        }
+      }
+    }
+    &:hover {
+      color:$color-thegBlue;
+      background-color:transparent;
+      .ellipse-wrapper {
+        background:$color-thegBlue;
+        svg {
+          path {
+            stroke:$color-white;
+          }
+        }
+      }
+    }
+
+  }
+
+  &.none {
+    background-color:transparent;
+    border:2px solid transparent;
+    color:$color-thegBlueDarker;
+    .ellipse-wrapper {
+      background:$color-thegBlue;
+      svg {
+        path {
+          stroke:$color-white;
+        }
+      }
+    }
+    &:hover {
+      border:2px solid $color-thegBlueDarker;
+      background-color:transparent;
+    }
+
+
+  }
+
+  &.boxes {
+    background-color:rgba(255,255,255,0.1);
+    border-radius:10px;
+    display:inline-flex;
+    flex-direction: column;
+    //justify-content: flex-end;
+    justify-content: space-between;
+    gap:10px;
+    font-size:$box_desktop;
+    padding:25px 15px 15px 35px;
+    align-items:flex-end;
+    @media screen and (max-width:1360px) {
+      font-size:$box_tablet;
+    }
+    span {
+      font-size: inherit;
+      display: block;
+      max-width: 90%;
+      align-self: flex-start;
+      line-height:1.2em;
+    }
+    .ellipse-wrapper {
+      flex:0 0 auto;
+      background:$color-thegBlue;
+      svg {
+        path {
+          stroke:$color-white;
+        }
+      }
+    }
+    &:hover {
+      color:$color-white;
+      background-color:$color-thegBlue;
+      .ellipse-wrapper {
+        background:$color-white;
+        svg {
+          path {
+            stroke:$color-thegBlue;
+          }
+        }
+      }
+    }
+  }
+
+  .ellipse-wrapper {
+    width:33px;
+    height:33px;
+    background:$color-thegBlue;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    transition:0.3s;
+  }
+}
+
+.button-icon {
+  width: 33px;
+  height: 33px;
+}
+
+
+
+
+.stickyButton {
+  position: sticky;
+  pointer-events: none;
+  right: 120px;
+  top: 45%;
+  z-index: 3;
+  height:0px;
+  transform: translateX(25px);
+
+  //width:0px;
+  > div {
+    //width:200px;
+    height:auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media screen and (max-width:1024px) {
+    display:none;
+  }
+  a {
+    pointer-events: auto;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color:$color-thegBlue;
+    text-decoration:none;
+    font-size:1.25rem;
+    @media screen and (max-width: 480px) {
+      font-size: $p_mobile;
+    }
+    transition:0.3s;
+    padding:30px;
+    &:hover {
+      transform: rotate(0deg);
+    }
+    svg {
+      transform:rotate(90deg);
+    }
+  }
+}

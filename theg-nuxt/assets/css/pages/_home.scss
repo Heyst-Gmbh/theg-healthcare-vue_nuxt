@@ -1,0 +1,53 @@
+.frontpage-headerbackground {
+  min-height: 100vh;
+  width: 100%;
+  background: url("~/assets/img/frontpage-background.jpg");
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+  @media screen and (max-width: 1024px) {
+    background-position: left 30% center;
+  }
+  @media screen and (max-width: 480px) {
+    min-height:1px;
+  }
+
+  &:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    //background: rgba(0, 0, 0, 0.3);
+    background: linear-gradient(330deg, rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 1) 100%);
+  }
+
+  .frontpage-headerbackground-text {
+    position: relative;
+    z-index: 2;
+    color: $color-white;
+    width: 45%;
+    margin-left: auto;
+    margin-top: 100px;
+    padding-bottom:50px;
+    @media screen and (max-width: 1024px) {
+      margin-top:50px;
+    }
+    @media screen and (max-width: 768px) {
+      width:75%;
+      margin-top:100px;
+    }
+
+    @media screen and (max-width: 480px) {
+      width:100%;
+      margin-left:0px;
+    }
+
+    .subheadline {
+      margin-bottom: 40px;
+      line-height: 1.2em;
+    }
+  }
+}

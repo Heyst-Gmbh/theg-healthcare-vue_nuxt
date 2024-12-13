@@ -9,8 +9,15 @@
           <h2>{{ firstname }} {{ lastname }}</h2>
           <span>{{ position }}</span>
           <div class="contact">
+
+            <a v-if="officeMail.length > 5" :href="`mailto:${officeMail}`">
+              <span>{{officeMail}}</span>
+            </a>
+
+            <hr>
+
             <a v-if="officePhone.length > 5" :href="`tel:+49${cleanPhone(officePhone)}`">
-              <span>+49 (0) 173 62 27 479</span>
+              <span>{{officePhone}}</span>
             </a>
 
             <hr>
@@ -63,6 +70,7 @@ export default {
     linkedin: String,
     xing: String,
     officePhone: String,
+    officeMail: String,
     imageName: String,
     vcardName: String
   },

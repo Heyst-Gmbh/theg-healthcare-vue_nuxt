@@ -8,6 +8,7 @@
         :linkedin="cardData.linkedin"
         :xing="cardData.xing"
         :officePhone="cardData.officePhone"
+        :officeMail="cardData.officeMail"
         :imageName="cardData.imageName"
         :vcardName="cardData.vcardName"
     />
@@ -35,6 +36,7 @@ const cards = {
     linkedin: 'https://www.linkedin.com/in/alexander-bechtler-b9823992',
     xing: 'https://www.xing.com/profile/Alexander_Bechtler',
     officePhone: '0173 62 27 479',
+    officeMail: 'a.bechtler@the-healthcare.group',
     imageName: 'theg-logo',
     vcardName: 'alexander-bechtler'
   },
@@ -45,6 +47,7 @@ const cards = {
     linkedin: 'https://www.linkedin.com/in/berthold-becker',
     xing: 'https://www.xing.com/profile/Berthold_Becker',
     officePhone: '0172 63 49 127',
+    officeMail: 'b.becker@the-healthcare.group',
     imageName: 'theg-logo',
     vcardName: 'berthold-becker'
   },
@@ -56,17 +59,19 @@ const cards = {
     linkedin: 'https://www.linkedin.com/in/dr-oliver-bechtler-8b32a189',
     xing: 'https://www.xing.com/profile/Oliver_Bechtler',
     officePhone: '0172 72 67 601',
+    officeMail: 'o.bechtler@the-healthcare.group',
     imageName: 'theg-logo',
     vcardName: 'dr-oliver-bechtler'
   },
   'k.monke': {
-    firstname: 'Karsten',
+    firstname: 'K Karsten',
     lastname: 'Monke',
     position: 'Prokurist',
     instagram: '',
     linkedin: 'https://www.linkedin.com/in/k-karsten-monke-1833b0105',
     xing: 'https://www.xing.com/profile/KKarsten_Monke',
     officePhone: '0170 77 73 637',
+    officeMail: 'k.monke@the-healthcare.group',
     imageName: 'theg-logo',
     vcardName: 'karsten-monke'
   },
@@ -78,6 +83,7 @@ const cards = {
     xing: '',
     linkedin: 'https://www.linkedin.com/in/philipp-hoepfel-129387229/',
     officePhone: '0151 252 05 911',
+    officeMail: 'p.hoepfel@the-healthcare.group',
     imageName: 'theg-logo',
     vcardName: 'philipp-hoepfel'
   },
@@ -89,6 +95,7 @@ const cards = {
     linkedin: 'https://www.linkedin.com/in/prof-dr-christian-hoeftberger-b7536783/',
     xing: 'https://www.xing.com/profile/Christian_Hoeftberger',
     officePhone: '0171 55 12 861',
+    officeMail: 'c.hoeftberger@the-healthcare.group',
     imageName: 'theg-logo',
     vcardName: 'prof-dr-christian-hoeftberger'
   }

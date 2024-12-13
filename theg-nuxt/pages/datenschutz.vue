@@ -17,7 +17,7 @@
             <p>Stand: 9. Oktober 2024</p>
             <h2 id="m3">Verantwortlicher</h2>
             <p>T H E The Healthcare Experts Group GmbH<br>Solmsstra&szlig;e 83<br>60486 Frankfurt am Main<br></p>
-            <p>Vertretungsberechtigte Personen: Alexander Bechtler, Prof Dr Christian H&ouml;ftberger</p>
+            <p>Vertretungsberechtigte Personen: Alexander Bechtler, Prof. Dr. Christian H&ouml;ftberger</p>
             <p>E-Mail-Adresse: info@the-healthcare.group</p>
             <p>Impressum: www.the-healthcare.group/impressum</p>
 

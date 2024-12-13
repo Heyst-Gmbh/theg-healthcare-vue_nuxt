@@ -11,10 +11,10 @@
                        info@the-healthcare.group<br/>
                        <br/>
                        <strong>Vertretungsberechtigte / Geschäftsführer</strong><br/>
-                      Alexander Bechtler, Prof Dr Christian Höftberger<br/>
+                      Alexander Bechtler, Prof. Dr. Christian Höftberger<br/>
                       <br/>
                       <strong>Verantwortlich für den Inhalt gemäß TMG:</strong><br/>
-                      Alexander Bechtler, Prof Dr Christian Höftberger<br/>
+                      Alexander Bechtler, Prof. Dr. Christian Höftberger<br/>
                       <br/>
                       <strong>Allgemeine Angaben</strong><br/>
                      Sitz der Gesellschaft: Frankfurt am Main<br/>

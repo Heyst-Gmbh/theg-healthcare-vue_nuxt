@@ -78,7 +78,7 @@
           <figure>
             <img src="~/assets/img/team/k-monke.jpg"/>
             <figcaption>
-              <span class="name">Karsten Monke</span>
+              <span class="name">K Karsten Monke</span>
               <span class="position">Prokurist</span>
             </figcaption>
           </figure>
